@@ -38,5 +38,31 @@ body {
 }
 
 .navbar {
+  display: flex;
   background: #18604f;
+}
+
+.navbar-item {
+
+}
+
+.navbar-item .logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-item .categories {
+  display: flex;
+  background: #1ce39b;
+}
+
+.navbar-item .categories .button {
+  display:  flex;
+  background: #147796;
+  justify-content: center;
+}
+
+.navbar-item .shopping-tools {
+  display: flex;
+  background: #fe3808;
 }

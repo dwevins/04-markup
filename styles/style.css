@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.top {
+.page-wrapper {
     display: flex;
     background: #a911e8;
     flex-direction: row;
@@ -20,7 +20,8 @@ body {
   background: #b3ab63;
   justify-content: space-between;
   align-items: flex-start;
-  width: 60%;
+  width: 50%;
+  margin-left: 7%;
 }
 
 .top-banner-item {
@@ -30,4 +31,8 @@ body {
   flex-grow: 1;
   align-items: flex-start;
   justify-content: space-around;
+}
+
+.top-banner .free-shipping {
+  background: #28b8eb;
 }

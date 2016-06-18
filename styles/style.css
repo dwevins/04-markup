@@ -7,6 +7,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+body * {
+  border: 1px solid black;
+}
 .page-wrapper {
     display: flex;
     background: #a911e8;
@@ -41,36 +44,42 @@ body {
   justify-content: space-around;
 }
 
-.top-banner .free-shipping {
+.free-shipping {
   background: #28b8eb;
 }
 
 .navbar {
-  display: flex;
   background: #18604f;
-}
-
-.navbar-item {
-
-}
-
-.navbar-item .logo {
   display: flex;
   justify-content: space-between;
 }
 
-.navbar-item .categories {
+.navbar-item {
+  background: #b3d966;
   display: flex;
-  background: #1ce39b;
 }
 
-.navbar-item .categories .button {
-  display:  flex;
+.logo {
+  background: #951729;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo-img {
+}
+
+.categories {
+  background: #1ce39b;
+  display: flex;
+}
+
+.button {
   background: #147796;
+  display:  flex;
   justify-content: center;
 }
 
-.navbar-item .shopping-tools {
-  display: flex;
+.shopping-tools {
   background: #fe3808;
+  display: flex;
 }

@@ -93,4 +93,19 @@ body * {
   background: #fe3808;
   display: flex;
   flex-basis: 25%;
+  flex-direction: column;
+}
+
+.account-tools {
+  background: #43f06e;
+  display: flex;
+
+}
+
+.shopping-cart {
+  background: #127bd7;
+}
+
+.search-bar {
+  background: #df8ae7;
 }

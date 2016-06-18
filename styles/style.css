@@ -99,13 +99,41 @@ body * {
 .account-tools {
   background: #43f06e;
   display: flex;
+  flex-basis: 50%;
+  justify-content: flex-end;
+}
 
+.login {
+  flex-basis: 25%;
+}
+
+.register {
+  flex-basis: 25%;
+}
+
+.cart-and-search{
+  background: #76e732;
+  display: flex;
+  flex-basis: 50%;
+  justify-content: flex-end;
 }
 
 .shopping-cart {
   background: #127bd7;
+  display: flex;
+  flex-basis: 50%
+}
+
+.cart-text {
+  background: #4399d7;
+}
+
+.cart-items {
+  background: #01c16f;
 }
 
 .search-bar {
   background: #df8ae7;
+  display: flex;
+  flex-basis: 50%;
 }

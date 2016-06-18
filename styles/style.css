@@ -15,12 +15,18 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
+
+.margin-box{
+  margin-left: 5%;
+  margin-r: 5%;
+}
+
 .top-banner {
   display: flex;
   background: #b3ab63;
   justify-content: space-between;
   align-items: flex-start;
-  width: 50%;
+  width: 100%;
   margin-left: 7%;
 }
 

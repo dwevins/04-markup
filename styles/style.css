@@ -115,12 +115,13 @@ body * {
   background: #76e732;
   display: flex;
   flex-basis: 50%;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .shopping-cart {
   background: #127bd7;
   display: flex;
+  justify-content: flex-start;
   flex-basis: 50%
 }
 
@@ -134,8 +135,12 @@ body * {
   flex-basis: 50%;
 }
 
-.search-bar {
+.search-bar-box {
   background: #df8ae7;
   display: flex;
   flex-basis: 50%;
+}
+
+.search-bar {
+  width: 100%;
 }

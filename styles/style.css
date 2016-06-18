@@ -10,13 +10,24 @@ body {
 .top {
     display: flex;
     background: #a911e8;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
-    ;
+    align-items: center;
     flex-wrap: wrap;
 }
 .top-banner {
-    flex-basis: 100%;
-    background: #b3ab63;
+  display: flex;
+  background: #b3ab63;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.top-banner-item {
+  display: flex;
+  background: #56e068;
+  flex-basis: 15%;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: space-around;
 }

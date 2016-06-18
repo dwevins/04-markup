@@ -18,7 +18,8 @@ body {
 
 .margin-box{
   margin-left: 5%;
-  margin-r: 5%;
+  margin-right: 5%;
+  width: 100%;
 }
 
 .top-banner {
@@ -27,7 +28,8 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  margin-left: 7%;
+  padding-left: 5%;
+  padding-right: 25%;
 }
 
 .top-banner-item {

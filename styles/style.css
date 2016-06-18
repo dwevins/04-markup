@@ -126,10 +126,12 @@ body * {
 
 .cart-text {
   background: #4399d7;
+  flex-basis: 50%;
 }
 
 .cart-items {
   background: #01c16f;
+  flex-basis: 50%;
 }
 
 .search-bar {

@@ -65,14 +65,14 @@ body * {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 20%;
+  flex-basis: 10rem;
   flex-direction: row;
 
 }
 
 .logo-img {
-
-  width: 100%;
+  display: flex;
+  width: 10rem;
 }
 
 .categories {
@@ -151,7 +151,7 @@ body * {
   background: #612bcd;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  flex-basis: 100%;
 }
 
 .attract-box-ties {
@@ -159,24 +159,29 @@ body * {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-basis: 50%;
+  flex-wrap: wrap;
 }
 
 .tie-box {
-
+  display: flex;
+  flex-direction: column;
+  flex-basis: 6.1rem;
 }
 
 .tie-box-img {
+  display: flex;
   background: #810e9d;
   justify-content: center;
   align-items: center;
 }
 
 .tie-img {
-  width: 100%;
+  display: flex;
+  width: 5rem;
 }
 
 .tie-box-text {
+  display: flex;
   background: #0f6f65;
 }
 
@@ -184,5 +189,4 @@ body * {
   background: #c27f61;
   display: flex;
   justify-content: center;
-  flex-basis: 50%;
 }

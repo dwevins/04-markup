@@ -193,8 +193,29 @@ body * {
 }
 
 .slogan {
+  background: #ca80eb;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-size: 3.8rem;
+}
+
+.accessories {
+  background: #140a7a;
+  display: flex;
+  flex-direction: row;
+}
+
+.accessories-item {
+  background: #d5457c;
+  display: flex;
+}
+
+.accessory-img {
+  display: flex;
+  width: 2rem;
+}
+
+.accessory-text {
+
 }

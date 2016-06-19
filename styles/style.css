@@ -270,3 +270,18 @@ body {
 .more-story {
   text-align: center;
 }
+
+.news-box {
+  background: #251c88;
+  display: flex;
+}
+
+.news {
+  background: #14809e;
+  display: flex;
+}
+
+.news-item {
+  background: #c00fc1;
+  display: flex;
+}

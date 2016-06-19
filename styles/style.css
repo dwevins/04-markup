@@ -211,6 +211,13 @@ body * {
   display: flex;
 }
 
+.accessory-img-box {
+  background: #706841;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 .accessory-img {
   display: flex;
   width: 2rem;

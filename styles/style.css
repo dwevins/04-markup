@@ -146,3 +146,38 @@ body * {
 .search-bar {
   flex-basis: 25%;
 }
+
+.attract-box {
+  background: #612bcd;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.attract-box-ties {
+  background: #d7c851;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-basis: 50%;
+}
+
+.tie-box {
+
+}
+
+.tie-box-img {
+  background: #810e9d;
+  width: 100%;
+}
+
+.tie-box-text {
+  background: #0f6f65;
+}
+
+.attract-box-text {
+  background: #c27f61;
+  display: flex;
+  justify-content: center;
+  flex-basis: 50%;
+}

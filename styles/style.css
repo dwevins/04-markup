@@ -204,6 +204,7 @@ body * {
   background: #140a7a;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .accessories-item {
@@ -214,8 +215,8 @@ body * {
 .accessory-img-box {
   background: #706841;
   display: flex;
-   justify-content: center;
-   align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .accessory-img {

@@ -139,8 +139,10 @@ body * {
   background: #df8ae7;
   display: flex;
   flex-basis: 50%;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .search-bar {
-  width: 100%;
+  flex-basis: 25%;
 }

@@ -30,7 +30,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width: 100%;
+  flex-basis: 100%;
 
 }
 
@@ -205,11 +205,18 @@ body {
   font-size: 3.8rem;
 }
 
+.accessories-box {
+  background: #d101f7;
+  display: flex;
+  flex-basis: 100%;
+}
+
 .accessories {
   background: #140a7a;
   display: flex;
   flex-direction: row;
-  justify-content: pace-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .accessories-item {
@@ -228,6 +235,10 @@ body {
 .accessory-img {
   display: flex;
   width: 20rem;
+}
+
+.accessory-text-box{
+
 }
 
 .accessory-text {

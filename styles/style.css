@@ -222,6 +222,7 @@ body {
 .accessories-item {
   background: #d5457c;
   display: flex;
+  flex-direction: column-reverse;
 }
 
 .accessory-img-box {
@@ -233,16 +234,19 @@ body {
 }
 
 .accessory-img {
+  background: #759c7e;
   display: flex;
   width: 20rem;
 }
 
 .accessory-text-box{
-
+  background: #32fcc1;
+  display: flex;
+  justify-content: center;
 }
 
 .accessory-text {
-
+  text-align: center;
 }
 
 .history-box {

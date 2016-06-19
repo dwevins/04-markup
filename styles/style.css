@@ -68,14 +68,14 @@ body * {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 8.6rem;
+  flex-basis: 8rem;
   flex-direction: row;
 
 }
 
 .logo-img {
   display: flex;
-  width: 8.6rem;
+  width: 8rem;
 }
 
 .categories {

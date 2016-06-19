@@ -215,7 +215,8 @@ body {
   background: #140a7a;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 

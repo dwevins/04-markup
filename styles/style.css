@@ -233,3 +233,24 @@ body {
 .accessory-text {
 
 }
+
+.history-box {
+  background: #3556af;
+  display: flex;
+  justify-content: center;
+}
+
+.history-text {
+  background: #823f87;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.history {
+  text-align: center;
+}
+
+.more-story {
+  text-align: center;
+}

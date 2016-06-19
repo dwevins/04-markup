@@ -20,8 +20,8 @@ body * {
 }
 
 .margin-box{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
   width: 100%;
 }
 
@@ -68,14 +68,14 @@ body * {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 10rem;
+  flex-basis: 8.6rem;
   flex-direction: row;
 
 }
 
 .logo-img {
   display: flex;
-  width: 10rem;
+  width: 8.6rem;
 }
 
 .categories {

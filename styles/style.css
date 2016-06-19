@@ -51,7 +51,7 @@ body * {
 .navbar {
   background: #18604f;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -168,6 +168,11 @@ body * {
 
 .tie-box-img {
   background: #810e9d;
+  justify-content: center;
+  align-items: center;
+}
+
+.tie-img {
   width: 100%;
 }
 

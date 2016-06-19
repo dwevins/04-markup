@@ -168,7 +168,7 @@ body * {
 .tie-box {
   display: flex;
   flex-direction: column;
-  flex-basis: 6.1rem;
+  flex-basis: 6.4rem;
 }
 
 .tie-box-img {
@@ -180,7 +180,7 @@ body * {
 
 .tie-img {
   display: flex;
-  width: 5rem;
+  width: 4.75rem;
 }
 
 .tie-box-text {
@@ -207,7 +207,7 @@ body * {
   background: #140a7a;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: pace-between;
 }
 
 .accessories-item {
@@ -220,11 +220,12 @@ body * {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 20rem;
 }
 
 .accessory-img {
   display: flex;
-  width: 2rem;
+  width: 20rem;
 }
 
 .accessory-text {

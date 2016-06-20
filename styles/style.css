@@ -283,12 +283,6 @@ body {
   justify-content: space-between;
 }
 
-.news-contact {
-  background: #c168ed;
-  display: flex;
-  flex-basis: 100%;
-}
-
 .news-item {
   background: #c00fc1;
   display: flex;

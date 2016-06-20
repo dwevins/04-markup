@@ -308,6 +308,18 @@ body {
   display: flex;
 }
 
+.footer {
+  background: #e7d4e4;
+  display: flex;
+}
+
+.footer-box {
+  background: #6d6ecd;
+  display: flex;
+  flex-direction: column;
+}
+
+.
 .contact-box {
   background: #afa6db;
   display: flex;

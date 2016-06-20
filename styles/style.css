@@ -325,6 +325,7 @@ body {
 .footer {
   background: #e7d4e4;
   display: flex;
+  flex-basis: 100%;
 }
 
 .footer-box {

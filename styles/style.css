@@ -316,15 +316,37 @@ body {
 .footer-box {
   background: #6d6ecd;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-.
+.footer-links {
+  background: #b1857c;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.footer-links-top {
+  background: #c6a9c8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link-section {
+  background: #5543fb;
+  display: flex;
+  flex-direction: column;S
+}
+
+.footer-links-bottom {
+  background: #af6d25;
+  display: flex;
+}
 .contact-box {
   background: #afa6db;
   display: flex;
   flex-direction: column;
-  flex-basis: 40%;
+  flex-basis: 60%;
 }
 
 .contact-top {

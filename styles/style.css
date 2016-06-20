@@ -271,21 +271,22 @@ body {
   text-align: center;
 }
 
+.news {
+  background: #3591aa;
+  display: flex;
+  flex-basis: 100%;
+}
 .news-box {
   background: #251c88;
   display: flex;
   flex-basis: 100%;
+  justify-content: space-between;
 }
 
 .news-contact {
   background: #c168ed;
   display: flex;
   flex-basis: 100%;
-}
-
-.news-contact-margin {
-  background: #931343;
-  display: flex;
 }
 
 .news-item {

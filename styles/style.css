@@ -299,42 +299,51 @@ body {
 .news-item-heading {
   background: #9871b1;
   display: flex;
+  width: 100%;
 }
 
 .news-item-mid {
   background: #40a41f;
   display: flex;
   width: 100%;
-}
-
-.style-guy {
-  display: flex;
-  width: 100%;
   justify-content: center;
   align-items: center;
 }
 
-.style-guy-img {
+.news-img {
   display: flex;
   width: 100%;
 }
 
-.weekly-pick {
-  background: #cd9379;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+.news-text {
+  margin: 0;
 }
 
-.weekly-pick-img {
-  background: #9289a4;
-  display: flex;
-  width: 100%;
-}
 .news-item-bottom {
   background: #dd8f7d;
   display: flex;
+  width: 100%;S
+}
+
+.email-subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+.email-input {
+  width: 90%;
+  align-self: center;
+}
+
+.subscribe {
+  width: 40%;
+}
+
+.news-text {
+  width: 100%;
+  font-size: 0.9rem;
 }
 
 .footer {

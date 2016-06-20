@@ -274,6 +274,7 @@ body {
 .news-box {
   background: #251c88;
   display: flex;
+  flex-basis: 100%;
 }
 
 .news {
@@ -283,5 +284,25 @@ body {
 
 .news-item {
   background: #c00fc1;
+  display: flex;
+}
+
+.news-item-top {
+  background: #f9db1f;
+  display: flex;
+}
+
+.news-item-heading {
+  background: #9871b1;
+  display: flex;
+}
+
+.news-item-mid {
+  background: #40a41f;
+  display: flex;
+}
+
+.news-item-bottom {
+  background: #dd8f7d;
   display: flex;
 }

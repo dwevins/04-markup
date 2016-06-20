@@ -286,6 +286,7 @@ body {
 .news-item {
   background: #c00fc1;
   display: flex;
+  flex-direction: column;
 }
 
 .news-item-top {

@@ -304,6 +304,19 @@ body {
   display: flex;
 }
 
+.weekly-pick {
+  background: #cd9379;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 2rem;
+}
+
+.weekly-pick-img {
+  background: #9289a4;
+  display: flex;
+  width: 2rem;
+}
 .news-item-bottom {
   background: #dd8f7d;
   display: flex;

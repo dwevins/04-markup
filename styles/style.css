@@ -11,10 +11,11 @@ body {
 
 a {
   text-decoration: none;
+  color: #0a7bff;
 }
 .page-wrapper {
     display: flex;
-    background: #a911e8;
+    /*background: #a911e8;*/
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -277,31 +278,31 @@ a {
 }
 
 .news {
-  background: #3591aa;
+  /*background: #3591aa;*/
   display: flex;
   flex-basis: 100%;
 }
 .news-box {
-  background: #251c88;
+  /*background: #251c88;*/
   display: flex;
   flex-basis: 100%;
   justify-content: space-between;
 }
 
 .news-item {
-  background: #c00fc1;
+  /*background: #c00fc1;*/
   display: flex;
   flex-direction: column;
   width: 23%;
 }
 
 .news-item-top {
-  background: #f9db1f;
+  /*background: #f9db1f;*/
   display: flex;
 }
 
 .news-item-heading {
-  background: #9871b1;
+  /*background: #9871b1;*/
   display: flex;
   width: 100%;
   margin-bottom: 3%;
@@ -309,7 +310,7 @@ a {
 }
 
 .news-item-mid {
-  background: #40a41f;
+  /*background: #40a41f;*/
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -322,7 +323,7 @@ a {
 }
 
 .social-link-section{
-  background: #bfd416;
+  /*background: #bfd416;*/
   display: flex;
   width: 50%;
   justify-content: space-between;
@@ -334,16 +335,28 @@ a {
   flex-direction: column;
   justify-content: center;
   font-size: 2rem;
-
 }
+
+.fa-facebook {
+  color: #111cb9;
+}
+
+.fa-pinterest-p {
+  color: #d03d3d;
+}
+
+.fa-twitter {
+  color: #17bedb;
+}
+
 .news-item-bottom {
-  background: #dd8f7d;
+  /*background: #dd8f7d;*/
   display: flex;
   width: 100%;
 }
 
 .email-subscribe {
-  background: #011caa;
+  /*background: #011caa;*/
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -367,20 +380,20 @@ a {
 }
 
 .footer {
-  background: #e7d4e4;
+  /*background: #e7d4e4;*/
   display: flex;
   flex-basis: 100%;
 }
 
 .footer-box {
-  background: #6d6ecd;
+  /*background: #6d6ecd;*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .footer-links {
-  background: #b1857c;
+  /*background: #b1857c;*/
   display: flex;
   flex-direction: column;
   flex-basis: 40%;
@@ -388,14 +401,14 @@ a {
 }
 
 .footer-links-top {
-  background: #c6a9c8;
+  /*background: #c6a9c8;*/
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
 }
 
 .footer-link-section {
-  background: #5543fb;
+  /*background: #5543fb;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -410,14 +423,14 @@ a {
 }
 
 .footer-links-bottom {
-  background: #af6d25;
+  /*background: #af6d25;*/
   display: flex;
   flex-basis: 10%;
   font-size: 0.6rem;
 }
 
 .footer-contact {
-  background: #f260b8;
+  /*background: #f260b8;*/
   display: flex;
   flex-basis: 50%;
   justify-content: flex-end;
@@ -425,48 +438,48 @@ a {
 }
 
 .contact-box {
-  background: #afa6db;
+  /*background: #afa6db;*/
   display: flex;
   flex-direction: column;
   flex-basis: 60%;
 }
 
 .contact-top {
-  background: #4f0557;
+  /*background: #4f0557;*/
   display: flex;
 }
 
 .contact-slogan {
-  background: #8db375;
+  /*background: #8db375;*/
   display: flex;
 }
 
 .contact-bottom {
-  background: #435ce2;
+  /*background: #435ce2;*/
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .contact-info {
-  background: #267867;
+  /*background: #267867;*/
   display: flex;
   flex-direction: column;
   flex-basis: 60%;
 }
 
 .email {
-  background: #932a0d;
+  /*background: #932a0d;*/
   display: flex;
 }
 
 .phone {
-  background: #3b9ae6;
+  /*background: #3b9ae6;*/
   display: flex;
 }
 
 .contact-button {
-  background: #b00f56;
+  /*background: #b00f56;*/
   display: flex;
   flex-direction: column;
   justify-content: center;

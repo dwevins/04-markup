@@ -15,7 +15,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    font-family: sans-serif;
+    font-family: Tahoma, sans-serif;
 }
 
 .margin-box{
@@ -311,6 +311,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-basis: 50%
 }
 
 .news-img {
@@ -329,6 +330,7 @@ body {
 }
 
 .email-subscribe {
+  background: #011caa;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;

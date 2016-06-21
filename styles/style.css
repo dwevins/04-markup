@@ -151,6 +151,9 @@ a {
 .login {
   flex-basis: 25%;
   color: #c6c6c6;
+  font-size: 0.8rem;
+  margin-bottom: -0.3rem;
+  margin-top: 1rem;
 }
 
 .cart-and-search{
@@ -161,22 +164,36 @@ a {
 }
 
 .shopping-cart {
-  background: #127bd7;
+  /*background: #127bd7;*/
   display: flex;
   justify-content: flex-start;
   flex-basis: 40%
 }
 
 .cart-text {
-  background: #4399d7;
+  /*background: #4399d7;*/
   flex-basis: 50%;
+  border-right: none;
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .cart-items {
-  background: #01c16f;
+  /*background: #01c16f;*/
   flex-basis: 50%;
+  border-left: none;
+  padding: 1rem 0;
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
+.fa-carat-left{
+
+}
+
+.fa-square {
+
+}
 .search-bar-box {
   /*background: #df8ae7;*/
   display: flex;

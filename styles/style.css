@@ -211,6 +211,7 @@ a {
 .tie-box-text {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
   /*background: #0f6f65;*/
 }
 

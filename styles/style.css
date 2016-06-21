@@ -37,7 +37,7 @@ a {
 
 .top-banner {
   display: flex;
-  background: #b3ab63;
+  background: #fa6938;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
@@ -49,18 +49,29 @@ a {
   display: flex;
   flex-direction: row;
   padding: 0.6rem 0;
+  align-items: center;
+  width: 75%;
 }
 
 .top-banner-item {
   display: flex;
-  background: #56e068;
-  flex-basis: 15%;
+  /*background: #56e068;*/
+  width: 15%;
   align-items: flex-start;
   justify-content: space-around;
+  color: white;
+  font-size: 0.9rem;
+  text-shadow: 0 0.03rem #5c5c5c;
 }
 
 .free-shipping {
-  background: #28b8eb;
+  background: #c7532c;
+  padding: 0.2rem 0.3rem;
+  font-weight: 100;
+  width: 6rem;
+  font-size:0.75rem;
+  border-radius: 0.2rem;
+  text-shadow: unset;
 }
 
 .navbar {
@@ -129,7 +140,7 @@ a {
 .account-tools {
   background: #43f06e;
   display: flex;
-  flex-basis: 50%;
+  flex-basis: 24%;
   justify-content: flex-end;
 }
 

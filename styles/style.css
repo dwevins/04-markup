@@ -195,13 +195,13 @@ a {
 }
 
 .attract-box-text {
-  background: #c27f61;
+  /*background: #c27f61;*/
   display: flex;
   justify-content: center;
 }
 
 .slogan {
-  background: #ca80eb;
+  /*background: #ca80eb;*/
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -209,13 +209,13 @@ a {
 }
 
 .accessories-box {
-  background: #d101f7;
+  /*background: #d101f7;*/
   display: flex;
   flex-basis: 100%;
 }
 
 .accessories {
-  background: #140a7a;
+  /*background: #140a7a;*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -224,24 +224,28 @@ a {
 }
 
 .accessories-item {
-  background: #d5457c;
+  /*background: #d5457c;*/
   width: 32%;
   position: relative;
 }
 
 .accessory-img-box {
-  background: #706841;
+  /*background: #706841;*/
   width: 100%;
 }
 
 .accessory-img {
-  background: #759c7e;
+  /*background: #759c7e;*/
   width: 100%;
 }
 
 .accessory-text {
-  text-align: center;
+  text-align: left;
   position: absolute;
+  top: -0.8rem;
+  right: 0.8rem;
+  font-weight: bold;
+  font-size: 1.7rem;
 }
 
 .history-box {

@@ -19,6 +19,9 @@ a {
   color: white;
 }
 
+.gray-border{
+  border: 0.05rem solid #969696;
+}
 .page-wrapper {
     display: flex;
     /*background: #a911e8;*/
@@ -131,17 +134,18 @@ a {
 }
 
 .shopping-tools {
-  background: #fe3808;
+  /*background: #fe3808;*/
   display: flex;
   flex-basis: 25%;
   flex-direction: column;
 }
 
 .account-tools {
-  background: #43f06e;
+  /*background: #43f06e;*/
   display: flex;
   flex-basis: 24%;
   justify-content: flex-end;
+  text-align: end;
 }
 
 .login {
@@ -150,7 +154,7 @@ a {
 }
 
 .cart-and-search{
-  background: #76e732;
+  /*background: #76e732;*/
   display: flex;
   flex-basis: 50%;
   justify-content: flex-start;
@@ -160,7 +164,7 @@ a {
   background: #127bd7;
   display: flex;
   justify-content: flex-start;
-  flex-basis: 50%
+  flex-basis: 40%
 }
 
 .cart-text {
@@ -174,9 +178,9 @@ a {
 }
 
 .search-bar-box {
-  background: #df8ae7;
+  /*background: #df8ae7;*/
   display: flex;
-  flex-basis: 50%;
+  flex-basis: 60%;
   flex-direction: column;
   justify-content: center;
 }

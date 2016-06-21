@@ -155,7 +155,7 @@ a {
 }
 
 .attract-box {
-  background: #612bcd;
+  /*background: #612bcd;*/
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -163,7 +163,7 @@ a {
 }
 
 .attract-box-ties {
-  background: #d7c851;
+  /*background: #d7c851;*/
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -178,7 +178,7 @@ a {
 
 .tie-box-img {
   display: flex;
-  background: #810e9d;
+  /*background: #810e9d;*/
   justify-content: center;
   align-items: center;
 }
@@ -191,7 +191,7 @@ a {
 .tie-box-text {
   display: flex;
   justify-content: center;
-  background: #0f6f65;
+  /*background: #0f6f65;*/
 }
 
 .attract-box-text {
@@ -206,6 +206,7 @@ a {
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-size: 3.8rem;
+  font-weight: 100;
 }
 
 .accessories-box {

@@ -64,21 +64,21 @@ a {
 }
 
 .navbar {
-  background: #18604f;
+  /*background: #18604f;*/
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .navbar-item {
-  background: #b3d966;
+  /*background: #b3d966;*/
   display: flex;
 }
 
 .logo {
-  background: #951729;
+  /*background: #951729;*/
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-basis: 8rem;
   flex-direction: row;
@@ -91,13 +91,33 @@ a {
 }
 
 .categories {
-  background: #1ce39b;
+  /*background: #1ce39b;*/
   display: flex;
-  flex-basis: 25%;
+  flex-basis: 45%;
   justify-content: space-around;
-  flex-grow: 1;
+  margin-left: -4rem;
 }
 
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+.category-text {
+  font-size: 1.6rem;
+  font-weight: 100;
+  color: #5c5c5c;
+  margin-top: 0.3rem;
+  margin-bottom: 0.1em;
+}
+
+.category-caret {
+  font-size: 1rem;
+  color: #fafafa;
+}
 
 .shopping-tools {
   background: #fe3808;

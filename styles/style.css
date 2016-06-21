@@ -9,14 +9,15 @@ body {
     flex-direction: column;
 }
 
-a {
+.blue-link{
   text-decoration: none;
-  color: #0a7bff;
+  color: #33a1ff;
 }
 
 .button {
-  background: #0c5dbb ;
+  background: #33a1ff ;
   color: white;
+  border: none;
 }
 
 .gray-border{
@@ -172,38 +173,44 @@ a {
 
 .cart-text {
   /*background: #4399d7;*/
-  flex-basis: 50%;
+  display: flex;
+  width: 70%;
   border-right: none;
   text-align: center;
-  padding: 1rem 1rem 1rem 1rem;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .cart-items {
   /*background: #01c16f;*/
-  flex-basis: 50%;
+  display: flex;
+  width: 30%;
   border-left: none;
-  padding: 1rem 0;
   text-align: center;
-  padding: 1rem 1rem 1rem 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.fa-carat-left{
-
+.fa-caret-left{
+  color: #c8c8c8;
 }
 
 .fa-square {
-
+  color: #c8c8c8;
 }
+
 .search-bar-box {
   /*background: #df8ae7;*/
   display: flex;
   flex-basis: 60%;
   flex-direction: column;
   justify-content: center;
+  margin: 0 0.5rem;
 }
 
 .search-bar {
-  flex-basis: 25%;
+  width: 100%;
+  font-size: 1rem;
 }
 
 .attract-box {
@@ -306,6 +313,7 @@ a {
   /*background: #3556af;*/
   display: flex;
   justify-content: center;
+  margin: 5rem 0;
 }
 
 .history-text {
@@ -327,6 +335,8 @@ a {
   /*background: #3591aa;*/
   display: flex;
   flex-basis: 100%;
+  border-top: 0.1rem solid #c8c8c8;
+  padding: 3rem 0;
 }
 .news-box {
   /*background: #251c88;*/
@@ -417,6 +427,9 @@ a {
 
 .subscribe {
   width: 40%;
+  font-size: 0.6rem;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
 }
 
 .news-text {
@@ -429,6 +442,7 @@ a {
   background: #f4f4f4;
   display: flex;
   flex-basis: 100%;
+  border-top: 0.1rem solid #c8c8c8;
 }
 
 .footer-box {
@@ -457,7 +471,6 @@ a {
   /*background: #5543fb;*/
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .footer-link-header {
@@ -466,6 +479,8 @@ a {
 
 .footer-link {
   font-size: 0.8rem;
+  text-decoration: none;
+  color: #5c5c5c;
 }
 
 .footer-links-bottom {
@@ -473,6 +488,14 @@ a {
   display: flex;
   flex-basis: 10%;
   font-size: 0.6rem;
+  color: #5c5c5c;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.credits-link {
+  text-decoration: none;
+  color: #5c5c5c;
 }
 
 .footer-contact {
@@ -484,10 +507,13 @@ a {
 }
 
 .contact-box {
-  /*background: #afa6db;*/
+  background: #a2afc0;
   display: flex;
   flex-direction: column;
-  flex-basis: 60%;
+  width: 70%;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 1rem;
 }
 
 .contact-top {
@@ -536,5 +562,8 @@ a {
 
 .contact-us {
   display: flex;
-  flex-grow: 1;
+  width: 9rem;
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
 }

@@ -155,7 +155,7 @@ a {
 }
 
 .attract-box {
-  /*background: #612bcd;*/
+  background: #f4f4f4;
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -373,7 +373,7 @@ a {
 }
 
 .footer {
-  /*background: #e7d4e4;*/
+  background: #f4f4f4;
   display: flex;
   flex-basis: 100%;
 }

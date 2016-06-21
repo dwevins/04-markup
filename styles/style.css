@@ -308,10 +308,8 @@ body {
   background: #40a41f;
   display: flex;
   width: 100%;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  flex-basis: 50%
+  flex-basis: 66%
 }
 
 .news-img {
@@ -334,6 +332,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content: flex-end;
   width: 100%;
 }
 

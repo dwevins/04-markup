@@ -225,32 +225,23 @@ a {
 
 .accessories-item {
   background: #d5457c;
-  display: flex;
-  flex-direction: column-reverse;
-  width: 25%;
+  width: 32%;
+  position: relative;
 }
 
 .accessory-img-box {
   background: #706841;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
 
 .accessory-img {
   background: #759c7e;
-  display: flex;
   width: 100%;
-}
-
-.accessory-text-box{
-  background: #32fcc1;
-  justify-content: center;
 }
 
 .accessory-text {
   text-align: center;
+  position: absolute;
 }
 
 .history-box {

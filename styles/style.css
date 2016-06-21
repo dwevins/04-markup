@@ -317,14 +317,22 @@ body {
   width: 100%;
 }
 
-.news-text {
-  margin: 0;
+.social-link-section{
+  background: #bfd416;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-content: center;
 }
 
+.social-link {
+  font-size: 2rem;
+
+}
 .news-item-bottom {
   background: #dd8f7d;
   display: flex;
-  width: 100%;S
+  width: 100%;
 }
 
 .email-subscribe {
@@ -347,7 +355,9 @@ body {
 
 .news-text {
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
+  margin: 0;
+  text-decoration: none;
 }
 
 .footer {

@@ -351,8 +351,9 @@ body {
   /*background: #c00fc1;*/
   display: flex;
   flex-direction: column;
-  width: 14rem;
-  margin: 0 auto;
+  min-width: 14rem;
+  margin: 0 1rem;
+  width: calc(25% / 3 - 1rem - 1rem);
 }
 
 .news-item-top {
@@ -371,7 +372,7 @@ body {
 .news-item-mid {
   /*background: #40a41f;*/
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
   flex-basis: 63%
@@ -468,14 +469,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }
 
 .footer-links {
   /*background: #b1857c;*/
   display: flex;
   flex-direction: column;
-  flex-basis: 40%;
-  justify-content: space-between;
+  width: 50%;
+  justify-content: flex-start;
 }
 
 .footer-links-top {
@@ -483,12 +485,15 @@ body {
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
+  flex-wrap: wrap;
 }
 
 .footer-link-section {
   /*background: #5543fb;*/
   display: flex;
   flex-direction: column;
+  min-width: 6rem;
+  margin: 0 0.5rem;
 }
 
 .footer-link-header {
@@ -504,11 +509,18 @@ body {
 .footer-links-bottom {
   /*background: #af6d25;*/
   display: flex;
-  flex-basis: 10%;
   font-size: 0.6rem;
   color: #5c5c5c;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.copyright-box {
+  margin-right: 0.3rem;
+}
+
+.credits-box {
+  margin-left: 0.3rem;
 }
 
 .credits-link {
@@ -518,37 +530,24 @@ body {
 
 .footer-contact {
   /*background: #f260b8;*/
-  display: flex;
-  flex-basis: 50%;
+  position: relative;
+  width: 40%;
   justify-content: flex-end;
-  align-items: center;
 }
 
 .contact-box {
+  position: absolute;
+  margin: auto;
   background: #a2afc0;
-  display: flex;
-  flex-direction: column;
-  width: 70%;
+  width: 100%;
   border-radius: 0.5rem;
   color: white;
   padding: 1rem;
 }
 
-.contact-top {
-  /*background: #4f0557;*/
-  display: flex;
-}
-
 .contact-slogan {
   /*background: #8db375;*/
   display: flex;
-}
-
-.contact-bottom {
-  /*background: #435ce2;*/
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .contact-info {
@@ -560,22 +559,17 @@ body {
 
 .email {
   /*background: #932a0d;*/
-  display: flex;
+  margin: 0.3rem;
 }
 
 .phone {
   /*background: #3b9ae6;*/
-  display: flex;
+  margin: 0.3rem;
 }
 
 .contact-button {
   /*background: #b00f56;*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-basis: 40%;
-  flex-grow: 1;
+  position: absolute;
 }
 
 .contact-us {

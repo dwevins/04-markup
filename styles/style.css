@@ -530,19 +530,26 @@ body {
 
 .footer-contact {
   /*background: #f260b8;*/
-  position: relative;
-  width: 40%;
+  display: flex;
+  flex-basis: 50%;
+  flex-shrink: 0;
   justify-content: flex-end;
 }
 
 .contact-box {
-  position: absolute;
-  margin: auto;
   background: #a2afc0;
-  width: 100%;
+  display: flex;
+  margin: 1rem 0;
+  flex-direction: column;
+  justify-content: center;
+  width: 21rem;
   border-radius: 0.5rem;
   color: white;
   padding: 1rem;
+}
+
+.contact-bottom {
+  position: relative;
 }
 
 .contact-slogan {
@@ -573,8 +580,10 @@ body {
 }
 
 .contact-us {
-  display: flex;
+  position: absolute;
   width: 9rem;
+  top: -3rem;
+  right: -21rem;
   font-size: 1.6rem;
   padding: 0.4rem;
   border-radius: 0.3rem;

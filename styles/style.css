@@ -285,7 +285,7 @@ body {
 
 .accessories-item {
   /*background: #d5457c;*/
-  flex-basis: 21rem;
+  max-width: 21rem;
   position: relative;
   margin: 0.5rem;
 }

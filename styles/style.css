@@ -81,12 +81,6 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 -1rem;
-}
-
-.navbar-item {
-  /*background: #b3d966;*/
-  margin: 0 1rem;
 }
 
 .logo {
@@ -94,14 +88,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 13%;
-  min-width: 10%;
+  width: 30%;
   flex-direction: row;
 
 }
 
-.logo-img {
+.logo-box {
   display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.logo-img {
   width: 100%;
 }
 

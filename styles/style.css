@@ -31,6 +31,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     font-family: Tahoma, sans-serif;
+    width: 100%;
 }
 
 .margin-box{
@@ -43,7 +44,6 @@ body {
   background: #fa6938;
   width: 100%;
   padding: 0.6rem 0;
-  margin: 0 -0.5rem;
 }
 
 .top-banner-content{
@@ -51,6 +51,7 @@ body {
   flex-direction: row;
   align-items: center;
   width: 100%;
+  margin: 0 -0.5rem;
 }
 
 .top-banner-item {
@@ -71,16 +72,21 @@ body {
   text-shadow: unset;
 }
 
+.navbar-container {
+  width: 100%;
+}
 .navbar {
   /*background: #18604f;*/
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0 -1rem;
 }
 
 .navbar-item {
   /*background: #b3d966;*/
-  display: flex;
+  margin: 0 1rem;
 }
 
 .logo {
@@ -88,14 +94,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-basis: 8rem;
+  max-width: 13%;
+  min-width: 10%;
   flex-direction: row;
 
 }
 
 .logo-img {
   display: flex;
-  width: 8rem;
+  width: 100%;
 }
 
 .categories {

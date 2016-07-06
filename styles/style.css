@@ -34,35 +34,29 @@ body {
 }
 
 .margin-box{
-  margin-left: 8.5%;
-  margin-right: 8.5%;
   width: 100%;
+  max-width: 65rem;
+  margin: auto;
 }
 
 .top-banner {
-  display: flex;
   background: #fa6938;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-basis: 100%;
+  width: 100%;
+  padding: 0.6rem 0;
+  margin: 0 -0.5rem;
 
 }
 
 .top-banner-content{
   display: flex;
   flex-direction: row;
-  padding: 0.6rem 0;
   align-items: center;
-  width: 75%;
+  width: 100%;
 }
 
 .top-banner-item {
-  display: flex;
-  /*background: #56e068;*/
-  width: 15%;
-  align-items: flex-start;
-  justify-content: space-around;
+  text-align: center;
+  margin: 0 0.5rem ;
   color: white;
   font-size: 0.9rem;
   text-shadow: 0 0.03rem #5c5c5c;

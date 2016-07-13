@@ -282,6 +282,8 @@ body {
 .history-box {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
   margin: 5rem 0;
 }
 
